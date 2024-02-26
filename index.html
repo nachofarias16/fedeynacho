@@ -8,6 +8,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -15,18 +19,22 @@
         <div class="pointer">
             <a href="index.html">
                 <img src="spotyboxd.png" alt="" id="logo">
-                <h1>spotyboxd</h1>
+                <h1>Spotyboxd</h1>
             </a>
         </div>
-        <h2>iniciar sesión</h2>
+        <h2 id="login">iniciar sesión</h2>
         <h3>expancion</h3>    
     </div>
-    <div class="formulario">
+    <div class="formulario" id="formulario">
         <form action="">
-            <textarea name="" id="" cols="30" rows="10" placeholder="Username" class="Username"></textarea>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Password" class="Password"></textarea>
-        </form>            
+            <textarea name="" id="usuario" cols="30" rows="10" placeholder="Username" class="Username"></textarea>
+            <textarea name="" id="password" cols="30" rows="10" placeholder="Password" class="Password"></textarea>
+            <span class="material-symbols-outlined" id="close-login">
+                close
+            </span>
+            <div id="sign_in"> Sign in </div>
+        </form>
     </div>
-
+    <script src="script.js"></script>
 </body>
 </html>

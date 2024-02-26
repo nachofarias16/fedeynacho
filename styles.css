@@ -26,16 +26,46 @@
 }
 
 .nav h2{
-    position: absolute;
-    top: 0;
-    margin-left: 400px;
-    margin-top: 22px;
-    color: white;
-    cursor: pointer;
-    user-select: none;
+   position: absolute;
+   top: 0;
+   right: 22%;
+   margin-top: 22px;
+   color: white;
+   cursor: pointer;
+   user-select: none;
+   font-family: "Montserrat", sans-serif;
+   font-weight: 500;
 }
 
+.formulario{
+   display: none;
+   transition: 1s ease;
+}
 
+.formulario span{
+  position: absolute;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  right: 30%;
+  margin-top: 18px;
+}
+
+.formulario #sign_in{
+   position: absolute;
+   display: flex;
+   right: 3%;
+   margin-top: 11px;
+   line-height: 31px;
+   width: 100px;
+   border-radius: 5px;
+   border: 0px;
+   background-color: rgb(230, 130, 0);
+   font-weight: 600;
+   font-family: "Montserrat", sans-serif;
+   justify-content: center;
+   cursor: pointer;
+}
 .Username{
    position:absolute;
    margin-top: 10px;
@@ -52,9 +82,8 @@
     
 }
 .Username::-webkit-input-placeholder {
-    text-align: center;
-    line-height: 28px;
-    
+   text-align: center;
+   line-height: 28px;
 }
 
 .Username{
@@ -84,3 +113,4 @@
 .Password{
    padding-left: 7px;
 }
+
