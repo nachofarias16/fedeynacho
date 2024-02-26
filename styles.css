@@ -5,6 +5,7 @@
    left: 0;
    height: 70px;
    background-color: #232938;
+   user-select: none;
 }
 .nav h1{
    position: absolute;
@@ -13,6 +14,7 @@
    top: 0;
    font-family: "Oswald", sans-serif;
    color: white;
+   user-select: none;
 }
 .pointer{
    cursor: pointer;
@@ -22,3 +24,34 @@
 #logo{
    height: 65px;
 }
+
+.nav h2{
+    position: absolute;
+    top: 0;
+    margin-left: 400px;
+    margin-top: 22px;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+.formulario textarea{
+    position:absolute;
+    margin-top: 15px;
+    margin-left: 380px;
+    width: 150px;
+    height: 28px;
+    resize: none;
+    display: block;
+    font-size: 15px;
+    border-radius: 5px;
+    font-weight: 200;
+    line-height: 28px;
+    
+}
+.Username::-webkit-input-placeholder {
+    text-align: center;
+    line-height: 28px;
+    
+  }
