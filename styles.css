@@ -25,7 +25,7 @@
    height: 65px;
 }
 
-.nav h2{
+.nav #login{
    position: absolute;
    top: 0;
    right: 22%;
@@ -36,10 +36,59 @@
    font-family: "Montserrat", sans-serif;
    font-weight: 500;
 }
+.nav #crear_cuenta{
+    position: absolute;
+    top: 0;
+    right: 40%;
+    margin-top: 22px;
+    color: white;
+    cursor: pointer;
+    user-select: none;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;   
+}
 
 .formulario{
    display: none;
    transition: 1s ease;
+}
+.formulario2{
+    background-color: #3f3e3e;
+    display: block;
+    position: absolute;
+    top: 0;
+    margin-top: 10%;
+    opacity: 90%;
+    position: absolute;
+    left: calc(36%);
+    width: 25%;
+    height: 500px;
+    
+}
+.boton_unirse{
+    position: absolute;
+    display: flex;
+    right: 70%;
+    margin-top: 11px;
+    line-height: 31px;
+    width: 100px;
+    border-radius: 5px;
+    border: 0px;
+    background-color: rgb(230, 130, 0);
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    justify-content: center;
+    cursor: pointer;
+}
+.form2 label{
+right: 70%;
+position: absolute;
+margin-top: 45px;
+justify-content: left;
+}
+.uname{
+margin-left: 30%;
+margin-top: 50px;
 }
 
 .formulario span{
