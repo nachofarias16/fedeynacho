@@ -1,5 +1,31 @@
-# fedeynacho
-hola
-hola soy nacho vamos a hacer no se historia!
-fede modificacion 1
-mnodigfoco
+
+--index-- 
+	->nav bar
+	->create acount
+	->login
+			-> profile
+				-> editar perfil
+					-> pfp
+					-> username
+				-> watchlist
+				-> likes
+				-> recent activity
+				-> fav films
+				-> amichis
+	->buscar albumes
+		-> album
+			-> lista de canciones con puntuacion
+			-> puntuacion del album
+			-> review del album
+			-> promedio de puntuacion de reviews x tiempo
+			-> agregar a watchlist
+			-> like
+			-> album + descripcion
+			-> link de spoty y yt
+			-> feats
+			-> popular/recent reviews
+
+- new and pseudo popular on spotyboxd
+- popular on spoyboxd
+- reviews populares
+- nuevas reviews de amigos
