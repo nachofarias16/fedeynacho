@@ -1,3 +1,24 @@
-.logo{
-   height: 100px;
+.nav{
+   position: absolute;
+   width: 100%;
+   top: 0;
+   left: 0;
+   height: 70px;
+   background-color: #232938;
+}
+.nav h1{
+   position: absolute;
+   margin-top: 9px;
+   margin-left: 118px;
+   top: 0;
+   font-family: "Oswald", sans-serif;
+   color: white;
+}
+.pointer{
+   cursor: pointer;
+   width: max-content;
+}
+
+#logo{
+   height: 65px;
 }
