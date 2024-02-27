@@ -37,73 +37,72 @@
    font-weight: 500;
 }
 .nav #crear_cuenta{
-    position: absolute;
-    top: 0;
-    right: 40%;
-    margin-top: 22px;
-    color: white;
-    cursor: pointer;
-    user-select: none;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;   
+   position: absolute;
+   top: 0;
+   right: 40%;
+   margin-top: 22px;
+   color: white;
+   cursor: pointer;
+   user-select: none;
+   font-family: "Montserrat", sans-serif;
+   font-weight: 500;   
 }
 
 .formulario{
    display: none;
    transition: 1s ease;
 }
-.formulario2{
-    display: none;
-    background-color: #29454d;
-    position: absolute;
-    top: 0;
-    margin-top: 10%;
-    opacity: 90%;
-    position: absolute;
-    left: calc(36%);
-    width: 25%;
-    height: 420px;
-    
+#formulario_2{
+   display: none;
+   background-color: #29454d;
+   position: absolute;
+   top: 0;
+   margin-top: 10%;
+   opacity: 90%;
+   position: absolute;
+   left: calc(36%);
+   width: 25%;
+   height: 420px;
 }
 .boton_unirse{
-    position: absolute;
-    display: flex;
-    left: 30px;
-    top: 350px;
-    line-height: 31px;
-    width: 100px;
-    border-radius: 5px;
-    border: 0px;
-    background-color: rgb(81, 192, 16);
-    font-weight: 650;
-    font-size: medium;
-    font-family: "Montserrat", sans-serif;
-    justify-content: center;
-    cursor: pointer;
-    color: azure;
+   position: absolute;
+   display: flex;
+   left: 30px;
+   top: 350px;
+   line-height: 31px;
+   width: 100px;
+   border-radius: 5px;
+   border: 0px;
+   background-color: rgb(81, 192, 16);
+   font-weight: 650;
+   font-size: medium;
+   font-family: "Montserrat", sans-serif;
+   justify-content: center;
+   cursor: pointer;
+   color: azure;
 }
 .form2 label{
-left: 30px;
-position: absolute;
-margin-top: 45px;
-justify-content: left;
-font-family: "Montserrat", sans-serif;
-color: aliceblue;
+   left: 30px;
+   position: absolute;
+   margin-top: 45px;
+   justify-content: left;
+   font-family: "Montserrat", sans-serif;
+   color: aliceblue;
 
 }
 .uname{
-margin-left: 30px;
-margin-top: 50px;
-width: 200px;
-height: 30px;
-border-radius: 5px;
+   margin-left: 30px;
+   margin-top: 50px;
+   width: 200px;
+   height: 30px;
+   border-radius: 5px;
 }
 .mail{
-margin-left: 30px;
-margin-top: 50px;
-width: 400px;
-height: 30px;
-border-radius: 5px;
+   margin-left: 30px;
+   margin-top: 50px;
+   width: 400px;
+   height: 30px;
+   border-radius: 5px;
 }
 
 .formulario span{

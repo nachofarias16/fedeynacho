@@ -12,6 +12,11 @@ login.addEventListener('click', function(){
     login.style.display='none';
 });
 
+login.addEventListener('click', function(){
+    formulario.style.display='block';
+    login.style.display='none';
+});
+
 close_login.addEventListener('click', function(){
     formulario.style.display='none';
     login.style.display='block';
@@ -27,7 +32,6 @@ sign_in.addEventListener('click', function(){
 });
 
 crear_cuenta.addEventListener('click', function(){
-    console.log("hola")
     formulario2.style.display='block';
     crear_cuenta.style.display='none';
 });
